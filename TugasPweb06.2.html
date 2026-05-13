@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pweb</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        display: grid;
+
+        /* 3 kolom */
+        grid-template-columns: 1fr 2fr 1fr;
+
+        gap: 10px;
+        padding: 10px;
+        height: 100vh;
+      }
+
+      /* Header */
+      .header {
+        grid-column: 1 / 4;
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      /* Sidebar kiri */
+      .sidebar-kiri {
+        background-color: #2ecc71;
+        color: white;
+        padding: 20px;
+      }
+
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 20px;
+        border: 2px solid #ccc;
+      }
+
+      /* Sidebar kanan */
+      .sidebar-kanan {
+        background-color: #e67e22;
+        color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+      .footer {
+        grid-column: 1 / 4;
+        background-color: #34495e;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>HEADER</h1>
+      </div>
+
+      <div class="sidebar-kiri">
+        <h2>SIDEBAR KIRI</h2>
+        <p>Menu navigasi website</p>
+      </div>
+
+      <div class="content">
+        <h2>CONTENT</h2>
+        <p>Isi utama halaman web.</p>
+      </div>
+
+      <div class="sidebar-kanan">
+        <h2>SIDEBAR KANAN</h2>
+        <p>Informasi tambahan.</p>
+      </div>
+
+      <div class="footer">
+        <h2>FOOTER</h2>
+        <p>Copyright 2026</p>
+      </div>
+    </div>
+  </body>
+</html>
